@@ -1,0 +1,724 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #FFFFFF;
+}
+
+/*---- HEADER ---------*/
+.header{
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-logo{
+    width: 130px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+nav .fas, nav .far{
+    margin: 8px;
+    font-size: 15px;
+    
+}
+.button-nav-style{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9093A6;
+ 
+}
+/*------------------CART--------------------------*/
+.hide{
+    display: none;
+}
+
+.container{
+    width: 25%;
+    position: relative;
+    float: right;
+    z-index: 2;
+    padding: 0px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+.container h2{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.product:hover{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+.cart-picture{
+    width: 30%;
+    border-radius: 6px;
+}
+
+.product-info{
+    padding: 10px;
+
+}
+.product-title{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.price-quantity-style{
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+
+}
+.product-remove{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+   
+
+}
+.btn-submit{
+
+    background: #FFE145;
+    color: #B79C10;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 25px 0 15px 0;
+    font-weight: bold;
+    
+}
+
+.btn-submit:hover {
+background: #E5E5E5;
+color: #9093A6;
+}
+.hide{
+    display: none;
+}
+
+.product:hover{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+
+
+
+
+
+/*----------FIRST ROW WITH IMG AND H1-------------*/
+.start-content{
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.main-photo{
+    width: 100%;
+    
+ 
+}
+.row h1{
+    font-weight: 300;
+    font-size: 68px;
+    color: #3F4255;
+
+}
+.start-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 1px solid #FFE500;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #3F4255;
+}
+
+/*--------------SECOND ROW--------------------*/
+.content{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.row-second {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+   
+}
+.row-second div {
+    display: flex;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.row-second  img{
+    width: 30px;
+    height: 30px;
+}
+.row-second p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #3F4255;
+    margin-left: 2px;
+}
+/*-------------------BUY ONLINE-----------------------*/
+.block-buy-online{
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    text-align: center;
+    z-index: 1;
+}
+.block-buy-online h2{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    color: #313030;
+    z-index: 1;
+}
+.buy-column{
+    padding: 20px 15px;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+
+}
+.cvarci-picture{
+    width: 100%;
+}
+.buy-column h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.cijena{
+    color: #B79C10;
+
+}
+.disable{
+    background: #E5E5E5;
+    color: #9093A6;
+    width: 80%;
+    margin-top: 10px;
+    padding: 15px 10px;;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 4px;
+    letter-spacing: 00.5px;
+    font-size: 15px;
+}
+.buy-column form{
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.buy-column input{
+    width: 30%;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+}
+.add-button{
+    width: 80%;
+    margin-top: 10px;
+    padding: 15px 10px;;
+    border: none;
+    cursor: pointer;
+    background: #FFE145;
+    font-weight: 700;
+    color: #B79C10;
+    border-radius: 4px;
+    letter-spacing: 00.5px;
+    font-size: 15px;
+
+}
+.add-button:hover {
+    background: #E5E5E5;
+    color: #9093A6;
+  }
+
+
+
+/*-------SECTION THIRD ROW IMAGES--------*/
+.images-row{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+   
+}
+.food-images{
+  width: 23%;
+}
+.row h2{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    color: #3F4255;
+}
+.all-btn{
+    font-weight: 700;
+    font-size: 15px;
+    color: #9093A6;
+    text-decoration: none;
+
+}
+.btn-right, .btn-left{
+    box-shadow: 0px 8px 40px rgba(128, 126, 126, 0.08);
+    border-radius: 50%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+}
+.row .fas{
+    color: #9093A6;
+    font-size: 16px;
+}
+/*-------PARTNERS--------*/
+.partners{
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #F2F4FA;
+    
+}
+.row-partner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.row-partner h2{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    color: #3F4255;
+
+}
+
+.row-partner p{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #3F4255;
+}
+.partners-column{
+    flex-basis: 43%;
+    padding:30px 2px;
+ 
+}
+.row-partner input{ 
+    padding: 20px; 
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: #e0e0d1;
+
+}
+.posalji-btn{
+    background: #FFE145;
+    color: #B79C10;
+    outline: none;
+    border: none;
+    padding: 20px;
+
+}
+/*----------LOCATION-----------*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.row h2{
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+.map-img{
+    width: 60%;
+}
+/*---------------CIRCLES--------------------*/
+.circles{
+    width: 80%;
+    margin: auto;
+    background: #F2F4FA;
+    padding: 40px;
+    
+}
+.row-circle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.circle-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle-column h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3F4255;
+}
+.circle-img{ 
+    width: 80%;
+}
+/*------------------INSTAGRAM PICTURES--------------------*/
+.instagram{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.instagram h2{
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 0.08em;
+    color: #3F4255;
+}
+.instagram span{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+
+}
+
+/*----------------------------FOOTER--------------------------------------------*/
+.footer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------INFORMATIONS--------------------------------------*/
+.informations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.informations ul li{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+}
+.informations ul li a{
+    text-decoration: none;
+    color: #9093A6;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 80px;
+}
+hr{
+    width: 15%;
+    background: #D4D7E6;
+    
+}
+
+/*--------------------------------CONTACT-----------------------------------------*/
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.contact ul li{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.icons{
+    color:#9093A6;
+    cursor: pointer;
+   
+}
+  
+
+   
+
+
+/*---- smaller screen ----*/
+@media(max-width:700px){
+    .menu-logo{
+        width: 70px;
+        height: 15px;
+    }
+    nav .fas, nav .far{
+        margin: 5px;
+        font-size: 10px;
+    }
+    nav{
+        padding: 2%  4%;
+    }
+   
+    .button-nav-style{
+        font-size: 8px;
+    }
+    nav ul li{
+       padding: 2px 3px;
+    }
+    .start-column h1{
+        font-size: 30px;
+    }
+    .row h1{
+        font-size: 13px;
+
+    }
+   
+    .start-btn{
+        padding: 2px 3px;
+        font-size: 6px;
+        margin-top: 10px;
+        margin-right: 5px;
+        
+    }
+    .row-second{
+        margin-top: 10px;
+    }
+    .row-second  img{
+       width: 15%;
+       height: 15%;
+    }
+    .row-second p{
+        font-size: 6px;
+    
+    }
+    .content{
+        width: 60%;
+    }
+    .row h2, .row-partner h2{
+        font-size: 10px;
+    }
+    .all-btn{
+        font-size: 7px;
+    
+    }
+    .btn-left{
+      
+        padding: 0 3px 3px 3px;
+    }
+    .btn-right{
+        padding: 0 3px 3px 3px;
+
+    }
+    .images-row{
+        padding-top: 30px;
+    }
+    .row .fas{
+        font-size: 7px;
+    }
+    .partners, .location{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .row-partner p{
+        font-size: 7px;
+    }
+    .row-partner input, .posalji-btn{ 
+        padding: 5px; 
+        font-size: 8px;
+  
+    }
+    .circles{
+        width: 70%;
+        padding: 10px;
+    }
+    .circle-column h3{
+        font-size: 8px;
+    
+    }
+    .circle-img{ 
+        width: 60%;
+    }
+    .instagram h2{
+        font-size: 10px;
+      
+    }
+    .instagram span{
+        font-size: 8px;
+    
+    }
+    .informations ul li a{
+        font-size: 9px;
+        margin-right: 10px;
+    }
+    .informations ul li a{
+        margin-left: 8px;
+    }
+    .contact ul li{
+        font-size: 6px;
+        margin-right: 3px;
+    }
+    .icons{
+        font-size: 10px;
+    }
+    .block-buy-online{
+    padding-top: 70px;
+
+    }
+    .block-buy-online h2{
+        font-size: 12px;
+    }  
+    .buy-column{
+        padding: 8px 4px;
+    
+    }
+    .cvarci-picture{
+        width: 90%;
+    }
+    .buy-column h3{
+        font-size: 9px;
+        margin-bottom: 5px;
+
+    }
+    .cijena_kg{
+        font-size: 9px;
+
+    }
+    .buy-column form{
+        width: 60%;
+        margin-top: 5px;
+        
+    }
+    .p_kolicina{
+        font-size: 9px;
+    }
+    .buy-column input{
+    font-size: 9px;
+
+    }
+    .add-button{
+        margin-top: 5px;
+        padding: 5px 2px;
+        font-size: 6px;
+
+    }
+    .container{
+        width: 30%;
+        padding: 0px 5px 5px;
+        margin: auto;
+
+    
+    }
+    .container h2{
+        font-size: 10px;
+    
+    }
+    
+    .product{
+        margin-bottom: 3px;
+    
+    }
+   
+    .cart-picture{
+        width: 30%;
+        border-radius: 2px;
+    }
+
+    .product-title{
+        font-size: 5px;
+       
+    }
+    
+    .price-quantity-style{
+        font-size: 5px;
+    
+    }
+    .btn-submit{
+        padding: 3px;
+        font-size: 5px;
+        margin: 5px 0 5px 0;
+       
+        
+    }
+    .product-remove{
+        font-size: 5px;
+    }
+    
+
+
+
+}
